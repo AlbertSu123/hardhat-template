@@ -1,11 +1,9 @@
 import { HardhatUserConfig } from "hardhat/config";
-import "@nomicfoundation/hardhat-toolbox-viem";
 import "hardhat-deploy";
 import "hardhat-contract-sizer";
 import "@nomicfoundation/hardhat-verify";
 import "@nomicfoundation/hardhat-ethers";
 import "@typechain/hardhat";
-
 
 const config: HardhatUserConfig = {
   solidity: {
